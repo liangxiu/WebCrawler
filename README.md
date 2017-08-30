@@ -40,5 +40,5 @@
             t:, 终止troy加载运行的子程序
             restart:, 重启troy加载的子程序
             c:, 清除troy加载的子程序的所有相关文件
-
-    4. 创建自己的Client, 参考两个Demo, china_brand(中华品牌网)， poi_86(中国poi网站),为了可以让爬虫程序能够通过Troy自动部署, 在Client/main.py中设置想要运行的程序，将Client整个文件夹压缩成zip包， 放置到服务器的static目录下, 在数据库的client_control表格中给想要的客户端设置cmd字段如：dr:xxx.zip， 则对应的客户端便会在10s内下载并运行指定的程序，子程序的log会上传到服务器的runtime目录下.
+    
+    4. 创建自己的Client, 参考两个Demo, china_brand(中华品牌网)， poi_86(中国poi网站),为了可以让爬虫程序能够通过Troy自动部署, 在Client/main.py中设置想要运行的程序，将Client整个文件夹压缩成zip包， 放置到服务器的static目录下, 在数据库的client_control表格中给想要的客户端设置cmd字段如：dr:xxx.zip， 则对应的客户端便会在10s内下载并运行指定的程序，子程序的log会上传到服务器的runtime目录下.
